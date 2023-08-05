@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+          Login
+        </title>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		
+        <link rel="shortcut icon" href="Images/Brand/2.png" type="image/x-icon">
+        <link rel="stylesheet" href="login.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    </head>
+    <body>
+		<section>
+			<div class="img1">
+				<video src="Images/pexels-rodnae-productions-7551526 (1080p).mp4" autoplay loop></video>
+			</div>
+			<div class="content">
+				<div class="formbx">
+					<h2>Login</h2>
+					<form action="landing page.html" onsubmit="return validateForm()">
+						<div class="inputbox">
+							<span>UserName</span>
+							<input type="text" name="">
+						</div>
+						<div class="inputbox">
+							<span>Password</span>
+							<input type="password" name="">
+						</div>
+						<div class="remember">
+							<label><input type="checkbox" name=""> Remeber Me</label>
+						</div>
+						<div class="inputbox">
+							<input type="submit" value="Sign in">
+						</div>
+						<div class="inputbox">
+							<p>Don't have an account? <a href="#">Sign up</a></p>
+						</div>
+					</form>
+				</div>
+			</div>
+		</section>
+		<script>
+			function validateForm() {
+				var username = document.forms["loginForm"]["username"].value;
+				var password = document.forms["loginForm"]["password"].value;
+	
+				if (username == "") {
+					alert("Username must be filled out");
+					return false;
+				}
+	
+				if (password == "") {
+					alert("Password must be filled out");
+					return false;
+				}
+			}
+		</script>
+	</body>
+</html>

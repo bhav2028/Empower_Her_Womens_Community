@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Spectral&display=swap');
+
+*
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+section .img1
+{
+    position: relative;
+    width: 50%;
+    height: 100%;
+}
+
+section .img1 video
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+section .content
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+section .content .formbx 
+{
+    width: 50%;
+}
+
+section .content .formbx h2
+{
+    color: black;
+    font-weight: 600;
+    font-size: 42px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    border-bottom: 4px solid green;
+    display: inline-block;
+    letter-spacing: 1px;
+}
+
+section .content .formbx .inputbox
+{
+    margin-bottom: 20px;
+}
+
+section .content .formbx .inputbox span
+{
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: inline-block;
+    color: black;
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+section .content .formbx .inputbox input
+{
+   width: 100%;
+   padding: 10px 20px;
+   outline: none;
+   font-weight: 400;
+   border: 1px solid #607d86;
+   font-size: 16px;
+   letter-spacing: 1px;
+   color: #607d86;
+   background: transparent;
+   border-radius: 30px;
+}
+
+section .content .formbx .inputbox input[type="submit"]
+{
+   background: white;
+   color: green;
+   border: 1px solid green;
+   font-weight: 500;
+   cursor: pointer;
+}
+
+section .content .formbx .inputbox input[type="submit"]:hover
+{
+   background: green;
+   color: white;
+}
+
+section .content .formbx .remember
+{
+    margin-bottom: 10px;
+    color: black;
+    padding: 3px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+section .content .formbx .inputbox p
+{
+    color: gray;
+    text-align: center;
+}
+
+section .content .formbx .inputbox p a 
+{
+    color: rgb(0, 136, 255);
+    text-align: center;
+}

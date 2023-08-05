@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Spectral&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navigation */
+
+.btn
+{
+    border-radius: 8px;
+}
+
+.btn-primary, 
+.btn-outline-danger
+{
+    padding: 12px 20px;
+}
+
+.navbar .btn-outline-success
+{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25px;
+    padding: 10px 16px;
+}
+
+.navbar-brand img
+{
+    width: 250px;
+    height: 50px;
+}
+
+.navbar
+{
+    margin: 10px 0px;
+    font-size: 17px;
+}
+
+.nav-link
+{
+    margin-left: 41px;
+    font-size: 20px;
+    color: black;
+}
+
+.navbar-nav .nav-link.active
+{
+    font-weight: bold;
+    color: black;
+}
+
+/* Hero Section */
+
+section.hero .text
+{
+    padding: 70px 0px;
+}
+
+section.hero .text
+{
+    font-family: 'Spectral', serif;
+    font-weight: 800;
+    font-size: 55px;
+    line-height: 73px;
+    color: black;
+}
+
+.buttons
+{
+    padding-top: 0px;
+}
+
+.buttons .btn
+{
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24px;
+    width: 150px;
+}
+
+/* Setup Section */
+
+section.setup
+{
+    padding: 100px 0;
+}
+
+section.setup .text-header h3
+{
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 48px;
+    color: black;
+}
+
+section.setup .text-header p
+{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: gray;
+    padding: 27px 0;
+}
+
+section.setup .icons 
+{
+    padding: 27px 0;
+}
+
+section.setup h5
+{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: black;
+    padding-bottom: 18px;
+}
+
+section.setup desc
+{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 22px;
+    color: gray;
+    max-width: 284px;
+    margin: 0 auto;
+}
+
+/* Gallery Section */
+
+.main-text
+{
+    font-family: 'Spectral', serif;
+    font-weight: 800;
+    font-size: 48px;
+}
+
+.gallery
+{
+    margin-top: 50px;
+}
+
+.gallery .card
+{
+    border-radius: 10px;
+    box-shadow: rgb(0, 0, 0, 0.1) 0px 4px 12px;
+    cursor: pointer;
+}
+
+.gallery .card img
+{
+    border-radius: 10px;
+    height: 300px;
+    transition: 0.5s;
+}
+
+.gallery .card img:hover
+{
+    transform: scale(1.1);
+}
+
+/*Footer*/
+footer .container
+{
+    background-color: #c3ffc3;
+    width: 100vw;
+}
